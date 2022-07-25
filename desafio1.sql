@@ -15,7 +15,7 @@ VALUES
   ('pessoal', 6.99);
 
 CREATE TABLE SpotifyClone.usuarios (
-  id_usuario INT AUTO_INCREMENT PRIMARY KEY,
+  usuario_id INT AUTO_INCREMENT PRIMARY KEY,
   usuario VARCHAR(50),
   idade INT,
   id_plano INT,
@@ -124,12 +124,12 @@ VALUES
   ('You Make Me Feel So..', 10, 83);
 
 CREATE TABLE SpotifyClone.historico (
-  id_usuario INT,
+  usuario_id INT,
   id_musicas INT,
   data_reproducao INT,
-  CONSTRAINT PRIMARY KEY (id_usuario, id_musicas),
-  FOREIGN KEY (id_usuario)
-    REFERENCES SpotifyClone.usuarios (id_usuario),
+  CONSTRAINT PRIMARY KEY (usuario_id, id_musicas),
+  FOREIGN KEY (usuario_id)
+    REFERENCES SpotifyClone.usuarios (usuario_id),
   FOREIGN KEY (id_musicas)
     REFERENCES SpotifyClone.musicas (id_musicas)
 ) engine = InnoDB;
@@ -176,11 +176,11 @@ VALUES
   (10, 13, 2017);
 
 CREATE TABLE SpotifyClone.follow_list (
-    id_usuario INT,
+    usuario_id INT,
     id_artista INT,
-    CONSTRAINT PRIMARY KEY (id_usuario, id_artista),
-    FOREIGN KEY (id_usuario)
-        REFERENCES SpotifyClone.usuarios (id_usuario),
+    CONSTRAINT PRIMARY KEY (usuario_id, id_artista),
+    FOREIGN KEY (usuario_id)
+        REFERENCES SpotifyClone.usuarios (usuario_id),
     FOREIGN KEY (id_artista)
         REFERENCES SpotifyClone.artistas (id_artista)
 ) engine = InnoDB;
