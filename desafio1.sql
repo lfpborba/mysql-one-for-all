@@ -25,14 +25,14 @@ CREATE TABLE SpotifyClone.usuarios (
 
 INSERT INTO SpotifyClone.usuarios(usuario, idade, id_plano)
 VALUES 
-  ('Thati', 23, 1), 
-  ('Cintia', 35, 2), 
-  ('Bill', 20, 4), 
-  ('Roger', 45, 3),
-  ('Norman', 58, 3),
+  ('Thati', 23, 1),
+  ('Cintia', 35, 2),
+  ('Bill', 20, 3),
+  ('Roger', 45, 4),
+  ('Norman', 58, 4),
   ('Patrick', 33, 2),
-  ('Vivian', 26, 4),
-  ('Carol', 19, 4),
+  ('Vivian', 26, 3),
+  ('Carol', 19, 3),
   ('Angelina', 42, 2),
   ('Paul', 46, 2);
 
