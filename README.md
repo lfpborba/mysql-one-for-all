@@ -1,10 +1,12 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# 💻 Projeto
+Criação de banco de dados, tabelas e queries em SQL utilizando comandos DDL, DML e DQL.
+# 🚀 Tecnologias
+Este projeto foi desenvolvido com as seguintes tecnologias:
+-	MySQL
+# 📌 Habilidades
+Neste projeto, desenvolvi as seguintes habilidades:
+-	Normalizar tabelas;
+-	Utilizar comandos DDL, DML e DQL em SQL;
+-	Criar bancos de dados e tabelas;
+-	Criar queries para busca e filtragem de dados;
+-	Criar queries para inserção, atualização e remoção de dados.
